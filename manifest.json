@@ -1,0 +1,13 @@
+{
+  "name": "Area Code Lookup",
+  "version": "0.1",
+  "description": "Area code lookup extension",
+  "permissions": ["storage"],
+  "action": {
+    "default_title": "Area Code Lookup",
+    "default_popup": "popup/popup.html",
+    "default_icon": "images/magnifying_glass.png"
+  },
+  "manifest_version": 3
+}
+

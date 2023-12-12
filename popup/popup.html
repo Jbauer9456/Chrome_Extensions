@@ -1,0 +1,26 @@
+<!-- popup.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Extension Popup</title>
+  <style>
+    body {
+      width: 250px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Search Searcher used for Searching things</h1>
+  <label for="inputField">Lookup Area Code:</label>
+  <input type="number" id="inputField" step="1">
+  <button id="saveButton">Search</button>
+
+  <!-- Display saved value, area code, and time zone -->
+  <div id="displayValue"></div>
+  <div id="displayAreaCode"></div>
+  <div id="displayTimeZone"></div>
+
+  <!-- Include your JavaScript file -->
+  <script src="popup.js"></script>
+</body>
+</html>
